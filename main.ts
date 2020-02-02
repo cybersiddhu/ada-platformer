@@ -32,3 +32,5 @@ let sidewinder = sprites.create(img`
 . . . . . . . . . c c . . . . . . . . . . . . . . . . . . . . . 
 . . . . . . . . . c c . . . . . . . . . . . . . . . . . . . . . 
 `, SpriteKind.Player)
+sidewinder.setFlag(SpriteFlag.BounceOnWall, true)
+controller.moveSprite(sidewinder, 80, 80)

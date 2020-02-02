@@ -1,7 +1,8 @@
 {
     "name": "ada-platformer",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "animation": "*"
     },
     "description": "",
     "files": [
